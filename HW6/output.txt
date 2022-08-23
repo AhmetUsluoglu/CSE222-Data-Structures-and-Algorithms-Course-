@@ -1,0 +1,35 @@
+
+Added 100 elements to hashtable = 8 ms
+Creating new empty hashtable
+This hashtable is empty ==> true
+
+Added one to hashtable
+one 
+This hashtable is empty ==> false
+
+Removed one from hashtable
+This hashtable is empty ==> true
+
+
+Trying to remove unexisting element from table
+
+Added one to six to hashtable
+one two three four five six 
+
+Added eight and nine to hashtable as 5 and 6 keys to update five and six
+one two three four eight nine 
+
+100 x 100
+Merge Sort =8 ms
+Quick Sort =3 ms
+New Sort   =11 ms
+
+100 x 1000
+Merge Sort =35 ms
+Quick Sort =14 ms
+New Sort   =205 ms
+
+100 x 10000
+Merge Sort =157 ms
+Quick Sort =100 ms
+New Sort   =16076 ms
