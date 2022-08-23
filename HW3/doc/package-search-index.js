@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"pck.array"},{"l":"pck.arraylist"},{"l":"pck.Buildings"},{"l":"pck.LDlinkedlist"},{"l":"pck.linkedlist"}];updateSearchResults();

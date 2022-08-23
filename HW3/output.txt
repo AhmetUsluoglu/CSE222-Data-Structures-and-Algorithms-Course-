@@ -1,0 +1,1157 @@
+javac -d bin Program.java
+cd bin ; java Program
+Iteration 
+
+		Testing With LDLinked List
+
+Testing The Program
+
+There is nothing in the Street
+                                         
+                                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Trying To remove unexisting building.
+                                         
+                                         
+                                         
+                                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Adding 3 Buildings to the front side
+                                         
+     ____                                
+     |  |   ____                         
+_____|  |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Trying to add the 4th house but this occupies the other houses place so it's not added.
+                                         
+                                         
+                                         
+     ____                                
+     |  |   ____                         
+_____|  |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Printing all the information about the street.
+
+
+
+1. Building (Side 1) =  House{ Position = 0, Length = 4, Height = 3, Number of Rooms = 1, Owner = Harry, Color = Blue}
+2. Building (Side 1) =  Office{ Position = 12, Length = 3, Height = 4, Owner = John, Job Type = 2}
+3. Building (Side 1) =  Market{ Position = 5, Length = 3, Height = 5, Owner = Mack, Open time = 9, Close time = 21}
+
+
+
+
+-- Each Classes' toString function is used when Printing the list of the Buildings. --
+
+
+Number of Playgrounds : 0
+Total length of Playgrounds : 0
+Playground / Building Ratio : 0.0
+
+Adding 3 Buildings to the back side
+                                         
+        ____                             
+        |  |                             
+   ____ |  |                             
+   |  | |  |                             
+   |  |_|  |                             
+   |       |____                         
+___|           |                         
+|              |                         
+|              |                         
+|              |                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Adding 2 Buildings to the back side
+                                         
+                                         
+                                         
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+#########################################
+0    5    10   15   20   25   30   35   40   
+Adding Playgrounds to 2 sides
+                                         
+                                         
+                                         
+                                         
+                                         
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   
+Printing all the information about the street.
+
+
+
+1. Building (Side 1) =  House{ Position = 0, Length = 4, Height = 3, Number of Rooms = 1, Owner = Harry, Color = Blue}
+2. Building (Side 1) =  Office{ Position = 12, Length = 3, Height = 4, Owner = John, Job Type = 2}
+3. Building (Side 1) =  Market{ Position = 5, Length = 3, Height = 5, Owner = Mack, Open time = 9, Close time = 21}
+4. Building (Side 1) =  Playground{ Position = 22, Length = 3}
+5. Building (Side 2)=  House{ Position = 12, Length = 3, Height = 4, Number of Rooms = 0, Owner = 0, Color = 0}
+6. Building (Side 2)=  Office{ Position = 3, Length = 3, Height = 7, Owner = 0, Job Type = 0}
+7. Building (Side 2)=  Market{ Position = 8, Length = 3, Height = 9, Owner = 0, Open time = 6, Close time = 17}
+8. Building (Side 2)=  House{ Position = 30, Length = 5, Height = 7, Number of Rooms = 0, Owner = 0, Color = 0}
+9. Building (Side 2)=  House{ Position = 17, Length = 3, Height = 9, Number of Rooms = 0, Owner = 0, Color = 0}
+10. Building (Side 2)=  Playground{ Position = 36, Length = 4}
+
+
+
+
+ Total Space Used By Buildings : 34
+
+ Total Free Spaces in The Street : 44
+
+Number of Playgrounds : 2
+Total length of Playgrounds : 7
+Playground / Building Ratio : 0.20588236
+
+Removing 1 random building from front side.
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   
+Removing 1 random building from back side.
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                 ____                    
+                 |  |                    
+   ____          |  |         ______     
+   |  |          |  |         |    |     
+   |  |__        |  |         |    |     
+   |    |   ____ |  |         |    |     
+___|    |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   
+
+Testing Clone and Equal functions in the House Class.
+
+myStreet.get_building(0,true).EQUALS(((House)myStreet.get_building(0,true)).CLONE()) == true
+
+
+Testing Clone and Equal functions in the Office Class.
+
+myStreet.get_building(1,true).EQUALS(((Office)myStreet.get_building(1,true)).CLONE()) == true
+
+
+Testing Clone nad Equal functions in the Market Class.
+
+myStreet.get_building(0,true).EQUALS(((House)myStreet.get_building(0,true)).CLONE()) == true
+
+
+Testing Clone and Equal functions in the Playground Class.
+
+myStreet.get_building(2,true).EQUALS(((Playground)myStreet.get_building(2,true)).CLONE()) == true
+
+Listing the Buildings.
+
+
+
+1. Building (Side 1) =  House{ Position = 0, Length = 4, Height = 3, Number of Rooms = 1, Owner = Harry, Color = Blue}
+2. Building (Side 1) =  Market{ Position = 5, Length = 3, Height = 5, Owner = Mack, Open time = 9, Close time = 21}
+3. Building (Side 1) =  Playground{ Position = 22, Length = 3}
+4. Building (Side 2)=  House{ Position = 12, Length = 3, Height = 4, Number of Rooms = 0, Owner = 0, Color = 0}
+5. Building (Side 2)=  Office{ Position = 3, Length = 3, Height = 7, Owner = 0, Job Type = 0}
+6. Building (Side 2)=  House{ Position = 30, Length = 5, Height = 7, Number of Rooms = 0, Owner = 0, Color = 0}
+7. Building (Side 2)=  House{ Position = 17, Length = 3, Height = 9, Number of Rooms = 0, Owner = 0, Color = 0}
+8. Building (Side 2)=  Playground{ Position = 36, Length = 4}
+
+
+
+
+Focusing on a building 5 and 7.
+5. Building =  Office{ Position = 3, Length = 3, Height = 7, Owner = 0, Job Type = 0}
+7. Building =  House{ Position = 17, Length = 3, Height = 9, Number of Rooms = 0, Owner = 0, Color = 0}
+
+Last State of the Street
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                 ____                    
+                 |  |                    
+   ____          |  |         ______     
+   |  |          |  |         |    |     
+   |  |__        |  |         |    |     
+   |    |   ____ |  |         |    |     
+___|    |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   Test 3 With LDLinkedList :7900.905ms
+Iteration 
+
+		Testing With Linked List
+
+Testing The Program
+
+There is nothing in the Street
+                                         
+                                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Trying To remove unexisting building.
+                                         
+                                         
+                                         
+                                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Adding 3 Buildings to the front side
+                                         
+     ____                                
+     |  |   ____                         
+_____|  |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Trying to add the 4th house but this occupies the other houses place so it's not added.
+                                         
+                                         
+                                         
+     ____                                
+     |  |   ____                         
+_____|  |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Printing all the information about the street.
+
+
+
+1. Building (Side 1) =  House{ Position = 0, Length = 4, Height = 3, Number of Rooms = 1, Owner = Harry, Color = Blue}
+2. Building (Side 1) =  Office{ Position = 12, Length = 3, Height = 4, Owner = John, Job Type = 2}
+3. Building (Side 1) =  Market{ Position = 5, Length = 3, Height = 5, Owner = Mack, Open time = 9, Close time = 21}
+
+
+
+
+-- Each Classes' toString function is used when Printing the list of the Buildings. --
+
+
+Number of Playgrounds : 0
+Total length of Playgrounds : 0
+Playground / Building Ratio : 0.0
+
+Adding 3 Buildings to the back side
+                                         
+        ____                             
+        |  |                             
+   ____ |  |                             
+   |  | |  |                             
+   |  |_|  |                             
+   |       |____                         
+___|           |                         
+|              |                         
+|              |                         
+|              |                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Adding 2 Buildings to the back side
+                                         
+                                         
+                                         
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+#########################################
+0    5    10   15   20   25   30   35   40   
+Adding Playgrounds to 2 sides
+                                         
+                                         
+                                         
+                                         
+                                         
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   
+Printing all the information about the street.
+
+
+
+1. Building (Side 1) =  House{ Position = 0, Length = 4, Height = 3, Number of Rooms = 1, Owner = Harry, Color = Blue}
+2. Building (Side 1) =  Office{ Position = 12, Length = 3, Height = 4, Owner = John, Job Type = 2}
+3. Building (Side 1) =  Market{ Position = 5, Length = 3, Height = 5, Owner = Mack, Open time = 9, Close time = 21}
+4. Building (Side 1) =  Playground{ Position = 22, Length = 3}
+5. Building (Side 2)=  House{ Position = 12, Length = 3, Height = 4, Number of Rooms = 0, Owner = 0, Color = 0}
+6. Building (Side 2)=  Office{ Position = 3, Length = 3, Height = 7, Owner = 0, Job Type = 0}
+7. Building (Side 2)=  Market{ Position = 8, Length = 3, Height = 9, Owner = 0, Open time = 6, Close time = 17}
+8. Building (Side 2)=  House{ Position = 30, Length = 5, Height = 7, Number of Rooms = 0, Owner = 0, Color = 0}
+9. Building (Side 2)=  House{ Position = 17, Length = 3, Height = 9, Number of Rooms = 0, Owner = 0, Color = 0}
+10. Building (Side 2)=  Playground{ Position = 36, Length = 4}
+
+
+
+
+ Total Space Used By Buildings : 34
+
+ Total Free Spaces in The Street : 44
+
+Number of Playgrounds : 2
+Total length of Playgrounds : 7
+Playground / Building Ratio : 0.20588236
+
+Removing 1 random building from front side.
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   
+Removing 1 random building from back side.
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                 ____                    
+                 |  |                    
+   ____          |  |         ______     
+   |  |          |  |         |    |     
+   |  |__        |  |         |    |     
+   |    |   ____ |  |         |    |     
+___|    |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   
+
+Testing Clone and Equal functions in the House Class.
+
+myStreet.get_building(0,true).EQUALS(((House)myStreet.get_building(0,true)).CLONE()) == true
+
+
+Testing Clone and Equal functions in the Office Class.
+
+myStreet.get_building(1,true).EQUALS(((Office)myStreet.get_building(1,true)).CLONE()) == true
+
+
+Testing Clone nad Equal functions in the Market Class.
+
+myStreet.get_building(0,true).EQUALS(((House)myStreet.get_building(0,true)).CLONE()) == true
+
+
+Testing Clone and Equal functions in the Playground Class.
+
+myStreet.get_building(2,true).EQUALS(((Playground)myStreet.get_building(2,true)).CLONE()) == true
+
+Listing the Buildings.
+
+
+
+1. Building (Side 1) =  House{ Position = 0, Length = 4, Height = 3, Number of Rooms = 1, Owner = Harry, Color = Blue}
+2. Building (Side 1) =  Market{ Position = 5, Length = 3, Height = 5, Owner = Mack, Open time = 9, Close time = 21}
+3. Building (Side 1) =  Playground{ Position = 22, Length = 3}
+4. Building (Side 2)=  House{ Position = 12, Length = 3, Height = 4, Number of Rooms = 0, Owner = 0, Color = 0}
+5. Building (Side 2)=  Office{ Position = 3, Length = 3, Height = 7, Owner = 0, Job Type = 0}
+6. Building (Side 2)=  House{ Position = 30, Length = 5, Height = 7, Number of Rooms = 0, Owner = 0, Color = 0}
+7. Building (Side 2)=  House{ Position = 17, Length = 3, Height = 9, Number of Rooms = 0, Owner = 0, Color = 0}
+8. Building (Side 2)=  Playground{ Position = 36, Length = 4}
+
+
+
+
+Focusing on a building 5 and 7.
+5. Building =  Office{ Position = 3, Length = 3, Height = 7, Owner = 0, Job Type = 0}
+7. Building =  House{ Position = 17, Length = 3, Height = 9, Number of Rooms = 0, Owner = 0, Color = 0}
+
+Last State of the Street
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                 ____                    
+                 |  |                    
+   ____          |  |         ______     
+   |  |          |  |         |    |     
+   |  |__        |  |         |    |     
+   |    |   ____ |  |         |    |     
+___|    |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   Test 2 With Linked List :6826.2065ms
+Iteration 
+
+		Testing With ArrayList
+
+Testing The Program
+
+There is nothing in the Street
+                                         
+                                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Trying To remove unexisting building.
+                                         
+                                         
+                                         
+                                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Adding 3 Buildings to the front side
+                                         
+     ____                                
+     |  |   ____                         
+_____|  |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Trying to add the 4th house but this occupies the other houses place so it's not added.
+                                         
+                                         
+                                         
+     ____                                
+     |  |   ____                         
+_____|  |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Printing all the information about the street.
+
+
+
+1. Building (Side 1) =  House{ Position = 0, Length = 4, Height = 3, Number of Rooms = 1, Owner = Harry, Color = Blue}
+2. Building (Side 1) =  Office{ Position = 12, Length = 3, Height = 4, Owner = John, Job Type = 2}
+3. Building (Side 1) =  Market{ Position = 5, Length = 3, Height = 5, Owner = Mack, Open time = 9, Close time = 21}
+
+
+
+
+-- Each Classes' toString function is used when Printing the list of the Buildings. --
+
+
+Number of Playgrounds : 0
+Total length of Playgrounds : 0
+Playground / Building Ratio : 0.0
+
+Adding 3 Buildings to the back side
+                                         
+        ____                             
+        |  |                             
+   ____ |  |                             
+   |  | |  |                             
+   |  |_|  |                             
+   |       |____                         
+___|           |                         
+|              |                         
+|              |                         
+|              |                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Adding 2 Buildings to the back side
+                                         
+                                         
+                                         
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+#########################################
+0    5    10   15   20   25   30   35   40   
+Adding Playgrounds to 2 sides
+                                         
+                                         
+                                         
+                                         
+                                         
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   
+Printing all the information about the street.
+
+
+
+1. Building (Side 1) =  House{ Position = 0, Length = 4, Height = 3, Number of Rooms = 1, Owner = Harry, Color = Blue}
+2. Building (Side 1) =  Office{ Position = 12, Length = 3, Height = 4, Owner = John, Job Type = 2}
+3. Building (Side 1) =  Market{ Position = 5, Length = 3, Height = 5, Owner = Mack, Open time = 9, Close time = 21}
+4. Building (Side 1) =  Playground{ Position = 22, Length = 3}
+5. Building (Side 2)=  House{ Position = 12, Length = 3, Height = 4, Number of Rooms = 0, Owner = 0, Color = 0}
+6. Building (Side 2)=  Office{ Position = 3, Length = 3, Height = 7, Owner = 0, Job Type = 0}
+7. Building (Side 2)=  Market{ Position = 8, Length = 3, Height = 9, Owner = 0, Open time = 6, Close time = 17}
+8. Building (Side 2)=  House{ Position = 30, Length = 5, Height = 7, Number of Rooms = 0, Owner = 0, Color = 0}
+9. Building (Side 2)=  House{ Position = 17, Length = 3, Height = 9, Number of Rooms = 0, Owner = 0, Color = 0}
+10. Building (Side 2)=  Playground{ Position = 36, Length = 4}
+
+
+
+
+ Total Space Used By Buildings : 34
+
+ Total Free Spaces in The Street : 44
+
+Number of Playgrounds : 2
+Total length of Playgrounds : 7
+Playground / Building Ratio : 0.20588236
+
+Removing 1 random building from front side.
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   
+Removing 1 random building from back side.
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                 ____                    
+                 |  |                    
+   ____          |  |         ______     
+   |  |          |  |         |    |     
+   |  |__        |  |         |    |     
+   |    |   ____ |  |         |    |     
+___|    |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   
+
+Testing Clone and Equal functions in the House Class.
+
+myStreet.get_building(0,true).EQUALS(((House)myStreet.get_building(0,true)).CLONE()) == true
+
+
+Testing Clone and Equal functions in the Office Class.
+
+myStreet.get_building(1,true).EQUALS(((Office)myStreet.get_building(1,true)).CLONE()) == true
+
+
+Testing Clone nad Equal functions in the Market Class.
+
+myStreet.get_building(0,true).EQUALS(((House)myStreet.get_building(0,true)).CLONE()) == true
+
+
+Testing Clone and Equal functions in the Playground Class.
+
+myStreet.get_building(2,true).EQUALS(((Playground)myStreet.get_building(2,true)).CLONE()) == true
+
+Listing the Buildings.
+
+
+
+1. Building (Side 1) =  House{ Position = 0, Length = 4, Height = 3, Number of Rooms = 1, Owner = Harry, Color = Blue}
+2. Building (Side 1) =  Market{ Position = 5, Length = 3, Height = 5, Owner = Mack, Open time = 9, Close time = 21}
+3. Building (Side 1) =  Playground{ Position = 22, Length = 3}
+4. Building (Side 2)=  House{ Position = 12, Length = 3, Height = 4, Number of Rooms = 0, Owner = 0, Color = 0}
+5. Building (Side 2)=  Office{ Position = 3, Length = 3, Height = 7, Owner = 0, Job Type = 0}
+6. Building (Side 2)=  House{ Position = 30, Length = 5, Height = 7, Number of Rooms = 0, Owner = 0, Color = 0}
+7. Building (Side 2)=  House{ Position = 17, Length = 3, Height = 9, Number of Rooms = 0, Owner = 0, Color = 0}
+8. Building (Side 2)=  Playground{ Position = 36, Length = 4}
+
+
+
+
+Focusing on a building 5 and 7.
+5. Building =  Office{ Position = 3, Length = 3, Height = 7, Owner = 0, Job Type = 0}
+7. Building =  House{ Position = 17, Length = 3, Height = 9, Number of Rooms = 0, Owner = 0, Color = 0}
+
+Last State of the Street
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                 ____                    
+                 |  |                    
+   ____          |  |         ______     
+   |  |          |  |         |    |     
+   |  |__        |  |         |    |     
+   |    |   ____ |  |         |    |     
+___|    |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   Test 1 With Array List :6967.512ms
+Iteration 
+
+		Testing With Arrays
+
+Testing The Program
+
+There is nothing in the Street
+                                         
+                                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Trying To remove unexisting building.
+                                         
+                                         
+                                         
+                                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Adding 3 Buildings to the front side
+                                         
+     ____                                
+     |  |   ____                         
+_____|  |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Trying to add the 4th house but this occupies the other houses place so it's not added.
+                                         
+                                         
+                                         
+     ____                                
+     |  |   ____                         
+_____|  |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+|       |   |  |                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Printing all the information about the street.
+
+
+
+1. Building (Side 1) =  House{ Position = 0, Length = 4, Height = 3, Number of Rooms = 1, Owner = Harry, Color = Blue}
+2. Building (Side 1) =  Office{ Position = 12, Length = 3, Height = 4, Owner = John, Job Type = 2}
+3. Building (Side 1) =  Market{ Position = 5, Length = 3, Height = 5, Owner = Mack, Open time = 9, Close time = 21}
+
+
+
+
+-- Each Classes' toString function is used when Printing the list of the Buildings. --
+
+
+Number of Playgrounds : 0
+Total length of Playgrounds : 0
+Playground / Building Ratio : 0.0
+
+Adding 3 Buildings to the back side
+                                         
+        ____                             
+        |  |                             
+   ____ |  |                             
+   |  | |  |                             
+   |  |_|  |                             
+   |       |____                         
+___|           |                         
+|              |                         
+|              |                         
+|              |                         
+#########################################
+0    5    10   15   20   25   30   35   40   
+Adding 2 Buildings to the back side
+                                         
+                                         
+                                         
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+#########################################
+0    5    10   15   20   25   30   35   40   
+Adding Playgrounds to 2 sides
+                                         
+                                         
+                                         
+                                         
+                                         
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   
+Printing all the information about the street.
+
+
+
+1. Building (Side 1) =  House{ Position = 0, Length = 4, Height = 3, Number of Rooms = 1, Owner = Harry, Color = Blue}
+2. Building (Side 1) =  Office{ Position = 12, Length = 3, Height = 4, Owner = John, Job Type = 2}
+3. Building (Side 1) =  Market{ Position = 5, Length = 3, Height = 5, Owner = Mack, Open time = 9, Close time = 21}
+4. Building (Side 1) =  Playground{ Position = 22, Length = 3}
+5. Building (Side 2)=  House{ Position = 12, Length = 3, Height = 4, Number of Rooms = 0, Owner = 0, Color = 0}
+6. Building (Side 2)=  Office{ Position = 3, Length = 3, Height = 7, Owner = 0, Job Type = 0}
+7. Building (Side 2)=  Market{ Position = 8, Length = 3, Height = 9, Owner = 0, Open time = 6, Close time = 17}
+8. Building (Side 2)=  House{ Position = 30, Length = 5, Height = 7, Number of Rooms = 0, Owner = 0, Color = 0}
+9. Building (Side 2)=  House{ Position = 17, Length = 3, Height = 9, Number of Rooms = 0, Owner = 0, Color = 0}
+10. Building (Side 2)=  Playground{ Position = 36, Length = 4}
+
+
+
+
+ Total Space Used By Buildings : 34
+
+ Total Free Spaces in The Street : 44
+
+Number of Playgrounds : 2
+Total length of Playgrounds : 7
+Playground / Building Ratio : 0.20588236
+
+Removing 1 random building from front side.
+4
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   
+Removing 1 random building from back side.
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                 ____                    
+                 |  |                    
+   ____          |  |         ______     
+   |  |          |  |         |    |     
+   |  |__        |  |         |    |     
+   |    |   ____ |  |         |    |     
+___|    |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   
+
+Testing Clone and Equal functions in the House Class.
+
+myStreet.get_building(0,true).EQUALS(((House)myStreet.get_building(0,true)).CLONE()) == true
+
+
+Testing Clone and Equal functions in the Office Class.
+
+myStreet.get_building(1,true).EQUALS(((Office)myStreet.get_building(1,true)).CLONE()) == true
+
+
+Testing Clone nad Equal functions in the Market Class.
+
+myStreet.get_building(0,true).EQUALS(((House)myStreet.get_building(0,true)).CLONE()) == true
+
+
+Testing Clone and Equal functions in the Playground Class.
+
+myStreet.get_building(2,true).EQUALS(((Playground)myStreet.get_building(2,true)).CLONE()) == true
+
+Listing the Buildings.
+
+
+
+1. Building (Side 1) =  House{ Position = 0, Length = 4, Height = 3, Number of Rooms = 1, Owner = Harry, Color = Blue}
+2. Building (Side 1) =  Market{ Position = 5, Length = 3, Height = 5, Owner = Mack, Open time = 9, Close time = 21}
+3. Building (Side 1) =  Playground{ Position = 22, Length = 3}
+4. Building (Side 2)=  House{ Position = 12, Length = 3, Height = 4, Number of Rooms = 0, Owner = 0, Color = 0}
+5. Building (Side 2)=  Office{ Position = 3, Length = 3, Height = 7, Owner = 0, Job Type = 0}
+6. Building (Side 2)=  House{ Position = 30, Length = 5, Height = 7, Number of Rooms = 0, Owner = 0, Color = 0}
+7. Building (Side 2)=  House{ Position = 17, Length = 3, Height = 9, Number of Rooms = 0, Owner = 0, Color = 0}
+8. Building (Side 2)=  Playground{ Position = 36, Length = 4}
+
+
+
+
+Focusing on a building 5 and 7.
+5. Building =  Office{ Position = 3, Length = 3, Height = 7, Owner = 0, Job Type = 0}
+7. Building =  House{ Position = 17, Length = 3, Height = 9, Number of Rooms = 0, Owner = 0, Color = 0}
+
+Last State of the Street
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                 ____                    
+                 |  |                    
+   ____          |  |         ______     
+   |  |          |  |         |    |     
+   |  |__        |  |         |    |     
+   |    |   ____ |  |         |    |     
+___|    |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  |         |    |     
+|       |   |  | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   Test  With Array :6881.116ms
+
+
+		 Tested All Functions of the Program
+
+
+		Test 3 With LDLinkedList :7900.905ms
+		Test 2 With Linked List  :6826.2065ms
+		Test 1 With Array List   :6967.512ms
+		Test   With Array        :6881.116ms
+
+
+
+
+		 Added 1 Buildings For Each Test
+
+
+		Test 3 With LDLinkedList :0.059ms
+		Test 2 With Linked List  :0.047ms
+		Test 1 With Array List   :0.064ms
+		Test   With Array        :0.04ms
+
+
+
+
+		 Added 5 Buildings For Each Test
+
+
+		Test 3 With LDLinkedList :0.178ms
+		Test 2 With Linked List  :0.169ms
+		Test 1 With Array List   :0.34ms
+		Test   With Array        :0.192ms
+
+
+
+
+		 Added 10 Buildings For Each Test
+
+
+		Test 3 With LDLinkedList :0.335ms
+		Test 2 With Linked List  :0.169ms
+		Test 1 With Array List   :0.174ms
+		Test   With Array        :0.154ms
+
+
+                                         
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40                                            
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40                                            
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40                                            
+        ____     ____                    
+        |  |     |  |                    
+   ____ |  |     |  |         ______     
+   |  | |  |     |  |         |    |     
+   |  |_|  |     |  |         |    |     
+   |       |____ |  |         |    |     
+___|           | |  |         |    |     
+|              | |  |         |    |     
+|              | |  |         |    |     
+|              | |  | ____    |    |_____
+#########################################
+0    5    10   15   20   25   30   35   40   
+
+		 Printing 10 Buildings For Each Test
+
+
+		Test 3 With LDLinkedList :0.002ms
+		Test 2 With Linked List  :0.003ms
+		Test 1 With Array List   :0.003ms
+		Test   With Array        :0.003ms
+
+
+		Testing the LdLinkedList Class Separetly
+Creating a list1 object
+Adding some elements to list1 
+[3, 18, 1, 1, 2, 1, 1, 1]
+[3, 18, 1, 1, 2, 1, 1, 1, 6]
+[3, 18, 1, 1, 2, 1, 1, 5, 1, 6]
+[3, 18, 1, 1, 2, 1, 1, 5, 9, 1, 6]
+Removing some elements from list1 
+5
+[3, 18, 1, 1, 2, 1, 1, 9, 1, 6]
+true
+[3, 18, 1, 1, 1, 1, 9, 1, 6]
+0
+3
+[18, 1, 1, 1, 1, 9, 1, 6]
+Adding new elements to list1 
+[8, 18, 1, 1, 1, 1, 9, 1, 6]
+[8, 18, 1, 1, 1, 1, 9, 8, 1, 6]
+[8, 18, 1, 1, 1, 1, 9, 8, 1, 6, 4]
+Removing some elements from list1 
+8
+[18, 1, 1, 1, 1, 9, 8, 1, 6, 4]
+Creating a list2 object
+
+          Adding Elements
+
+[1]
+[1, 2]
+[1, 2, 3]
+[1, 2, 3, 4]
+[0, 1, 2, 3, 4]
+[0, 1, -1, 2, 3, 4]
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+Head data ==> 0
+Tail data ==> 4
+
+From Head to Tail
+[ 0 1 -1 2 3 4 ]
+From Tail to Head
+[ 4 3 2 -1 1 0 ]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Printing elements in the list using Enhanced Loop via Iterator
+0 1 -1 2 3 4 
+
+          Removing elements again          
+
+[0, 1, -1, 2, 3, 4]
+[1, -1, 2, 3, 4]
+[1, -1, 2, 4]
+[1, -1, 4]
+[1, -1]
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+Head data ==> 1
+Tail data ==> -1
+
+From Head to Tail
+[ 1 -1 ]
+From Tail to Head
+[ -1 1 ]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Deleted list (Lazy) : [ 0 3 2 4 ]
+
+          Adding Elemetns Again
+
+[1, 1, 1, -1]
+[1, 1, 1, -1, 2]
+[1, 1, 1, 4, -1, 2]
+
+Deleted list (Lazy) : [ ]
+
+          Checking Boolean Functions
+
+true
+false
+
+          Removing elements again          
+
+[1, 1, 1, 4, -1, 2]
+[1, 1, 1, 4, 2]
+[1, 1, 1, 2]
+[1, 1, 2]
+[1, 1]
+[1]
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+Head data ==> 1
+Tail data ==> 1
+
+From Head to Tail
+[ 1 ]
+From Tail to Head
+[ 1 ]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Deleted list (Lazy) : [ -1 4 1 2 1 ]
